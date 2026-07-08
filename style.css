@@ -30,8 +30,8 @@ nav a:hover{
   color: gold;
 }
 img{
-  width: 150px;
-  border-radius: 45%;
+  max-width: 100%;
+  height: auto;
 }
 section{
   padding: 30px;
