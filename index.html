@@ -1,264 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Okpanachi Data Analyst Portfolio</title>
-<link rel="icon" type="Image/png" href="Images/logo.png">
-
+    <link rel="icon" type="image/png" href="Images/logo.png">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
     <h1>Hi, I'm Okpanachi Ogwu</h1>
- 
     <h2>Aspiring Data Analyst</h2>
-<p class="hero-text">
-Python • Excel • Pandas • Streamlit • HTML • CSS
-</p>
-
-    <p>
-        I transform raw data into meaningful insights using Python, Excel and modern analytics tools.
-    </p>
-
-    <a href="#projects" class="project-btn">View My Projects</a>
-
-    <a href="Okpanachi_Ogwu_CV.pdf" download class="project-btn">
-        Download CV
-    </a>
+    <p class="hero-text">Python • Excel • Pandas • Streamlit • HTML • CSS</p>
+    <p>I transform raw data into meaningful insights using Python, Excel and modern analytics tools.</p>
+    <div class="header-buttons">
+        <a href="#projects" class="project-btn">View My Projects</a>
+        <a href="Okpanachi_Ogwu_CV.pdf" download class="project-btn">Download CV</a>
+    </div>
 </header>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#progress">Learning&nbsp;Progress</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#progress">Learning Progress</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-<section id="about">
-    <h2>About Me</h2>
-
-    <div class="about-container">
-        <img src="Images/okpanachi.png" alt="Okpanachi Profile Picture" width="160" height="150">
-
-    <div>
-            <p>
-              Hello, I'm Okpanachi.
-            </p>
-
-<p>
-  I am an aspiring Data Analyst with hands-on experience in
-    <strong>Python, Excel, HTML and CSS.</strong>
-I enjoy analyzing datasets, building dashboards and creating practical projects that solve real-world problems.
-</p>
-
-<p>
-I am continuously improving my skills in
-<strong>data analysis, data visualization and web development</strong>
-while building projects that demonstrate my knowledge and passion for data.
-</p>
-
- <a href="https://github.com/Onazi4real" target="_blank">Visit GitHub</a>
-<br><br>
-
-<a href="https://github.com/Onazi4real" target="_blank" class="project-btn">
-Explore My GitHub Repositories
-</a>
-    </div>
-
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="Images/okpanachi.png" alt="Okpanachi Profile Picture" width="160" height="150" class="profile-pic">
+            <div class="about-text">
+                <p>Hello, I'm Okpanachi.</p>
+                <p>I am an aspiring Data Analyst with hands-on experience in <strong>Python, Excel, HTML and CSS.</strong> I enjoy analyzing datasets, building dashboards and creating practical projects that solve real-world problems.</p>
+                <p>I am continuously improving my skills in <strong>data analysis, data visualization and web development</strong> while building projects that demonstrate my knowledge and passion for data.</p>
+                <div class="about-buttons">
+                    <a href="https://github.com/Onazi4real" target="_blank" class="project-btn">Explore My GitHub Repositories</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="skills">
-<ul>
-    <li>🐍 Python</li>
-    <li>📊 Excel</li>
-    <li>📈 Pandas</li>
-    <li>📉 Matplotlib</li>
-    <li>🌐 HTML</li>
-    <li>🎨 CSS</li>
-    <li>⚡ Streamlit</li>
-    <li>🔗 Git & GitHub</li>
-</ul>
+        <h2>My Skills</h2>
+        <ul class="skills-grid">
+            <li>🐍 Python</li>
+            <li>📊 Excel</li>
+            <li>📈 Pandas</li>
+            <li>📉 Matplotlib</li>
+            <li>🌐 HTML</li>
+            <li>🎨 CSS</li>
+            <li>⚡ Streamlit</li>
+            <li>🔗 Git & GitHub</li>
+        </ul>
     </section>
 
     <section id="progress">
         <h2>Learning Progress</h2>
-
-        <table border="1">
-            <tr>
-                <th>Skill</th>
-                <th>Level</th>
-            </tr>
-
-            <tr>
-                <td>Python</td>
-                <td>Intermediate</td>
-            </tr>
-
-            <tr>
-                <td>Excel</td>
-                <td>Advanced</td>
-            </tr>
-
-            <tr>
-                <td>HTML</td>
-                <td>Beginner</td>
-            </tr>
-
-            <tr>
-                <td>CSS</td>
-                <td>Learning</td>
-            </tr>
-        </table>
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Python</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Excel</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Learning</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
 
-<section id="projects">
-    <h2>Projects</h2>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <img src="Images/pharmacy-revenue-category.png" alt="Pharmacy Sales Analysis Dashboard">
+                <h3>Pharmacy Sales Analysis</h3>
+                <p>An exploratory data analysis of Pharmacy sales using Python, Pandas, Matplotlib and Excel. The project identifies top-selling medicine categories, revenue trends and business insights.</p>
+                <p><strong>Tools:</strong> Python, Pandas, Matplotlib, Excel</p>
+                <a href="https://github.com/Onazi4real/Pharmacy-Sales-Data-Analysis" target="_blank" class="project-btn">View Project</a>
+            </div>
+            
+            <div class="project-card">
+                <img src="Images/Ogwu.png" alt="Superstore Dashboard">
+                <h3>Superstore Dashboard</h3>
+                <p>An interactive sales dashboard built with Python and Streamlit. It provides insights into sales, profit, regional performance, customer segments and product categories.</p>
+                <p><strong>Tools:</strong> Python, Streamlit, Pandas</p>
+                <a href="https://github.com/Onazi4real/superstore-sales-dashboard" target="_blank" class="project-btn">View Dashboard</a>
+            </div>
 
-    <div class="Project-card">
-        <img src="Images/pharmacy-revenue-category.png" alt="Pharmacy Sales Analysis Dashboard">
-        <h3>Pharmacy Sales Analysis</h3>
-        <p>
-          An exploratory data analysis of Pharmacy sales using Python, Pandas, Matplotlib and Excel. The project identifies top-selling medicine categories, revenue trends and business insights.
-        </p>
-        <p>
-         <strong>Tools:</strong> Python, Pandas, Matplotlib, Excel
-        </p>
-        <a href="https://github.com/Onazi4real/Pharmacy-Sales-Data-Analysis" target="_blank" class="Project-btn">
-          View Project
-        </a>
+            <div class="project-card">
+                <img src="Images/my.png" alt="Portfolio Website">
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal portfolio website created with HTML and CSS to showcase my projects, skills, learning progress and contact information.</p>
+                <p><strong>Tools:</strong> HTML, CSS, GitHub</p>
+                <a href="https://github.com/Onazi4real" target="_blank" class="project-btn">View Website</a>
+            </div>
+            
+            <div class="project-card">
+                <img src="Images/Dashboard.png" alt="Data Dashboard">
+                <h3>Interactive Data Dashboard</h3>
+                <p>An interactive dashboard built with Streamlit that allows users to explore sales data using filters, KPIs and charts.</p>
+                <p><strong>Tools:</strong> Python, Streamlit, Pandas</p>
+                <a href="https://github.com/Onazi4real" target="_blank" class="project-btn">View Dashboard</a>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="contact-section-container">
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>📧 <strong>Email:</strong> <a href="mailto:okpanachiogwu2@gmail.com">okpanachiogwu2@gmail.com</a></p>
+            <p>📱 <strong>Phone:</strong> <a href="tel:+2348107604201">+2348107604201</a></p>
+            <p>📍 <strong>Location:</strong> Abocho, Kogi State, Nigeria</p>
+        </section>
+
+        <section id="contacts">
+            <h3>Contact Form</h3>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <label>Name:</label>
+                <input type="text" placeholder="Enter your full name" required>
+                <label>Email:</label>
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
     </div>
     
-   <div class="Project-card">
-      <img src="Images/Ogwu.png" alt="Superstore Dashboard">
-
-      <h3>Superstore Dashboard</h3>
-
-     <p>
-        An interactive sales dashboard built with Python and Streamlit.
-        It provides insights into sales, profit, regional performance,
-        customer segments and product categories.
-     </p>
-     <p>
-        <strong>Tools:</strong> Python, Streamlit, Pandas
-     </p>
-     
-
-     <a href="https://github.com/Onazi4real/superstore-sales-dashboard"
-       target="_blank"
-       class="project-btn">
-       View Dashboard
-     </a>
-   </div>
-   <div class="project-card">
-     <img src="Images/my.png" alt="Portfolio Website">
-
-     <h3>Portfolio Website</h3>
-
-     <p>
-        A responsive personal portfolio website created with HTML and CSS
-        to showcase my projects, skills, learning progress and contact
-        information.
-     </p>
-     <p>
-      <strong>Tools:</strong> HTML, CSS, GitHub
-     </p>
-
-     <a href="https://github.com/Onazi4real"
-       target="_blank"
-       class="project-btn">
-       View Website
-     </a>
-   </div>
-   
-<div class="Project-card">
-
-<img src="Images/Dashboard.png" alt="Data Dashboard">
-
-<h3>Interactive Data Dashboard</h3>
-
-<p>
-An interactive dashboard built with Streamlit that allows users to explore sales data using filters, KPIs and charts.
-</p>
-
-<p>
- <strong>Tools:</strong> Python, Streamlit, Pandas
-</p>
-
-<a href="https://github.com/Onazi4real"
-target="_blank"
-class="project-btn">
-View Dashboard
-</a>
-
-</div>
-</section>
-
-<section id="contact">
-    <h2>Contact Me</h2>
-
-    <p>📧 <strong>Email:</strong>
-        <a href="mailto:okpanachiogwu2@gmail.com">
-            okpanachiogwu2@gmail.com
-        </a>
-    </p>
-
-    <p>📱 <strong>Phone:</strong>
-        <a href="tel:+2348107604201">
-            +2348107604201
-        </a>
-    </p>
-
-    <p>📍 <strong>Location:</strong> Abocho, Kogi State, Nigeria</p>
-</section>
-    <section id="contacts">
-        <h3>Contact Form</h3>
-
-        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-
-            <label>Name:</label><br>
-            <input type="text" placeholder="Enter your full name" required>
-
-            <br><br>
-
-            <label>Email:</label><br>
-            <input type="email" placeholder="Enter your email address" required>
-
-            <br><br>
-
-            <input type="Submit">
-
-        </form>
+    <section class="goal-section">
+        <h2>My Goal</h2>
+        <p>I enjoy transforming raw data into meaningful insights that help businesses make smarter decisions.</p>
     </section>
-    
-<section>
-
-<h2 style="text-align:center;">My Goal</h2>
-
-<p style="text-align:center;font-size:22px;max-width:800px;margin:auto;">
-I enjoy transforming raw data into meaningful insights that help businesses make smarter decisions.
-</p>
-
-</section>
+</main>
 
 <footer>
     <p>&copy; 2026 Okpanachi Ogwu. All Rights Reserved.</p>
-
-<div class="footer-links">
-    <a href="https://github.com/Onazi4real" target="_blank">🐙 GitHub</a>
-
-    <a href="https://www.linkedin.com/in/okpanachi-ogwu-a06a3618b" target="_blank">💼 LinkedIn</a>
-
-    <a href="mailto:okpanachiogwu2@gmail.com">📧 Email</a>
-
-    <a href="tel:+2348107604201">📱 Call</a>
-</div>
-
-<p>
-Designed & Developed by <strong>Okpanachi Ogwu</strong> | © 2026
-</p>
+    <div class="footer-links">
+        <a href="https://github.com/Onazi4real" target="_blank">🐙 GitHub</a>
+        <a href="https://www.linkedin.com/in/okpanachi-ogwu-a06a3618b" target="_blank">💼 LinkedIn</a>
+        <a href="mailto:okpanachiogwu2@gmail.com">📧 Email</a>
+        <a href="tel:+2348107604201">📱 Call</a>
+    </div>
+    <p>Designed & Developed by <strong>Okpanachi Ogwu</strong> | © 2026</p>
 </footer>
       
-<a href="#" class="top-btn">⬆ Top</a>
+<a href="#" class="top-btn">⬆</a>
 </body>
 </html>
